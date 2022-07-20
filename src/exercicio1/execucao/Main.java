@@ -1,12 +1,14 @@
 package src.exercicio1.execucao;
 
-import src.exercicio1.Estrutura.funcionarios.Coordenador;
-import src.exercicio1.metodos.AumentoSalario;
+import src.exercicio1.estrutura.vinculosEmpregaticios.Estagiario;
+import src.exercicio1.estrutura.vinculosEmpregaticios.Coordenador;
+import src.exercicio1.estrutura.vinculosEmpregaticios.Professor;
 
 public class Main {
     public static void main(String[] args) {
         Coordenador coordenador = new Coordenador();
-        AumentoSalario aumentoSalario = new AumentoSalario();
+        Estagiario estagiario = new Estagiario();
+        Professor professor = new Professor();
         coordenador.setNome("João");
         coordenador.setCpf("001.432.321-50");
         coordenador.setNumeroDeRegistro("321123");
@@ -23,5 +25,8 @@ public class Main {
         System.out.println("Professores supervisionados: " + coordenador.getProfessoresSupervisionados());
         coordenador.aumentoSalario();
         System.out.println("Novo salário do coordenador: " + coordenador.getSalario());
+        coordenador.reembolsarDespesas();
+        estagiario.reembolsarDespesas();
+        professor.reembolsarDespesas();
     }
 }

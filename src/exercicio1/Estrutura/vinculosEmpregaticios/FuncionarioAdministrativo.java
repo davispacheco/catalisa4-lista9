@@ -1,12 +1,19 @@
-package src.exercicio1.Estrutura.funcionarios;
+package src.exercicio1.estrutura.vinculosEmpregaticios;
 
-public class FuncionarioAdministrativo extends Funcionario {
+import src.exercicio1.estrutura.ReembolsoDespesas;
+
+public class FuncionarioAdministrativo extends Funcionario implements ReembolsoDespesas {
     private String funcaoAdministrativa;
     private String senioridade;
 
     public FuncionarioAdministrativo() {
         this.funcaoAdministrativa = funcaoAdministrativa;
         this.senioridade = senioridade;
+    }
+
+    @Override
+    public void reembolsarDespesas() {
+        System.out.println("Despesas do funcionário administrativo reembolsadas!");
     }
 
     public String getFuncaoAdministrativa() {
