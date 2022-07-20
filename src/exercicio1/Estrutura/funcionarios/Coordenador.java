@@ -6,15 +6,6 @@ public class Coordenador extends Funcionario {
     public Coordenador() {
         this.professoresSupervisionados = 0;
     }
-
-
-    @Override
-    public void aumentoSalario() {
-        double percentual = 0.05;
-        double reajuste = getSalario() * percentual;
-        setSalario(getSalario() + reajuste);
-    }
-
     public void adicionaProfessor() {
         if (professoresSupervisionados == 10) {
             System.out.println("Limite de professores supervisionados excedido.");

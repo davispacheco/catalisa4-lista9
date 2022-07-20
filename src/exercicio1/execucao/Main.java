@@ -1,10 +1,12 @@
-package src.exercicio1.visao;
+package src.exercicio1.execucao;
 
 import src.exercicio1.Estrutura.funcionarios.Coordenador;
+import src.exercicio1.metodos.AumentoSalario;
 
 public class Main {
     public static void main(String[] args) {
         Coordenador coordenador = new Coordenador();
+        AumentoSalario aumentoSalario = new AumentoSalario();
         coordenador.setNome("João");
         coordenador.setCpf("001.432.321-50");
         coordenador.setNumeroDeRegistro("321123");
