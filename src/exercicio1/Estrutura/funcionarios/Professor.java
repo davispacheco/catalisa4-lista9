@@ -1,4 +1,6 @@
-package src.exercicio1.funcionarios;
+package src.exercicio1.Estrutura.funcionarios;
+
+import src.exercicio1.Estrutura.turmas.Turma;
 
 public class Professor extends Funcionario {
     private String nivelDeGraduacao;

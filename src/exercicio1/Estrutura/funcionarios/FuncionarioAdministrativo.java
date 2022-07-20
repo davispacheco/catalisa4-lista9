@@ -1,4 +1,4 @@
-package src.exercicio1.funcionarios;
+package src.exercicio1.Estrutura.funcionarios;
 
 public class FuncionarioAdministrativo extends Funcionario {
     private String funcaoAdministrativa;

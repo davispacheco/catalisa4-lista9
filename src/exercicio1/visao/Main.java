@@ -1,4 +1,6 @@
-package src.lista6a.exercicio1;
+package src.exercicio1.visao;
+
+import src.exercicio1.Estrutura.funcionarios.Coordenador;
 
 public class Main {
     public static void main(String[] args) {
