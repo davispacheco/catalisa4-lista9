@@ -1,4 +1,4 @@
-package src.lista6a.exercicio1;
+package src.exercicio1.funcionarios;
 
 public class Coordenador extends Funcionario {
     private int professoresSupervisionados;

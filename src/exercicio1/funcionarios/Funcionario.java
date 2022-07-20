@@ -1,4 +1,4 @@
-package src.lista6a.exercicio1;
+package src.exercicio1.funcionarios;
 
 public abstract class Funcionario implements Universidade {
     private String nome;
